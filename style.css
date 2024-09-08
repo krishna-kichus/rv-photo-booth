@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-container{
+    width: 100%;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    --text: #ffffff;
+  background: #2c2a2d;
+  /* background: blue; */
+  opacity: 50%;
+  z-index: 1;
+
+}
+
+nav ul{
+    display: flex;
+    opacity: 100%;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 20px;
+    opacity: none;
+    font-weight: 700;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 100%;
+
+}
+
+ .header .logo h1{
+    opacity: 100%;
+    color: red;
+}
+
+
+
+
+.about{
+    width: 100%;
+    height: 70vh;
+    margin-top: 10px;
+    /*
+    background-image: repeating-linear-gradient(
+        -45deg,
+        orange 0,
+        transparent 30px,
+        orangered 30px,
+        transparent 60px,
+        orange 120px,
+        transparent 240px
+      );
+      background-color: orange;
+      
+      */
+      display: flex;
+}
+
+.about h1{
+  
+  text-align: start;
+  /* color: red; */
+  border-bottom: 3px solid #000;
+  width: 300px;
+  position: relative;
+  top: 50px;
+  font-weight: 700;
+}
+
+.about p{
+    margin-top: 90px;
+}
+
+.about-details{
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.about-details img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 10px solid yellow;
+}
+
+.about-content p:last-child{
+    color: red;
+}
+
+
+
+.about-content{
+    width: 40%;
+    height: 100%;
+    /* background: yellow; */
+
+
+
+}
+
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.service-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,370px);
+    gap: 50px 20px;
+    
+}
+
+.service-gallery div img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.service-details{
+    text-align: center;
+}
+
+
+
+
+
+.details{
+    width: 100%;
+    height: 100vh;
+    /* background: orangered; */
+    background: blue;
+    position: relative;
+   
+    margin-top: 10px;
+  /* background-image: url(media/prewedding1.jpg); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* position: relative; */
+   display: flex;
+}
+
+
+.details h1{
+    left: 500px;
+    position: absolute;
+    top: 40px;
+    font-size: 100px;
+    font-weight: 700;
+    color: #fff;
+    /* border-bottom: 2px solid red; */
+    /* width: 300px; */
+
+
+}
+
+ .service-bar{
+    width: 60%;
+    height: 80vh;
+    /* background: #fff; */
+    position: relative;
+    left: 30px;
+    /* background: #000; */
+
+
+}
+
+.service-bar ul{
+    margin-left: 50px;
+    position: relative;
+
+    top:130px;
+
+}
+
+
+.service-bar ul li{
+    margin: 50px 0px;
+    list-style: none;
+}
+
+
+.service-bar  ul  li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.5s;
+    opacity: 40%;
+
+
+
+}
+
+.service-bar  ul  li a:hover{
+    border: 4px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 100%;
+    font-weight: 700;
+    color: #000;
+    background: #fff;
+
+}
+
+.service-photo{
+    width: 520px;
+    height: 520px;
+    background: red;
+    margin-top: 150px;
+    margin-left: -30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.service-photo img{
+  height: 450px;
+    border-radius: 50%;
+    width: 450px;
+    
+}
+
+
+
+
+
+.bottom-navbar{
+    width: 98%;
+    height: 20vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.bottom-navbar h2{
+    font-weight: 700;
+    /* color: red; */
+}
+
+
+.social-media{
+    width: 100%;
+    height: 5vh;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+}
+
+.social-media ul{
+    display: flex;
+}
+
+.social-media ul li {
+    margin: 0px 5px;
+    list-style: none;
+}
+
+.social-media img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+
+.text{
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery-container{
+    width: 100%;
+    height: 100vh;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ecf0f1;
+    border-bottom: 3px solid #000;
+}
+
+.gallery{
+    width: 90%;
+    height: 90vh;
+    /* background: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.gallery .one div{
+    /* background: blue; */
+    width: 450px;
+    height: 300px;
+
+}
+
+.gallery .one div img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.gallery .one{
+    /* background: aqua; */
+    width:100%;
+    height: 95%;
+    display: grid;
+    align-items: center;
+    grid-gap: 10px;
+    justify-content: center;
+
+
+}
+
+
+
+.gallery .two{
+
+    width: 100%;
+    height: 95%;
+    display: grid;
+    align-items: center;
+    grid-gap: 10px;
+    justify-content: center;
+
+}
+
+.gallery .two div h1{
+    text-align: center;
+    position: relative;
+    /* top: 50px; */
+    font-size: 50px;
+    border: 2px solid #000;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+
+
+.gallery .two div{
+    width: 400px;
+    height: 197px;
+    background: #fff;
+
+}
+
+.gallery-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .two div img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 15px;
+}
+
+.gallery .three{
+    /* background: aqua; */
+    width:100%;
+    height: 95%;
+    display: grid;
+    align-items: center;
+    grid-gap: 10px;
+    justify-content: center;
+
+
+}
+
+.gallery .three div{
+    /* background: blue; */
+    width: 450px;
+    height: 300px;
+
+}
+
+.gallery .three div img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+
